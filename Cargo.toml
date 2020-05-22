@@ -1,0 +1,9 @@
+[package]
+name = "file-regex"
+version = "0.0.1"
+authors = ["Ondřej Kuhejda"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.3"
+regex = "1"

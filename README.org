@@ -1,0 +1,9 @@
+* file-regex
+  #+BEGIN_SRC text
+  USAGE:
+    file-regex <pattern> <path>
+  #+END_SRC
+  This simple application takes two arguments --- regular expression and path to a
+  file. The application then returns zero (signifying success) when a regular
+  expression matches the content of the file.  I implemented this tool in
+  Rust, because Rust has support for matching bytes using regular expressions.
